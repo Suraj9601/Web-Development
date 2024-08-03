@@ -1,0 +1,122 @@
+*{
+    margin: oi;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    
+    width: 100vw;
+    height: 100vh;
+    background: url(white-background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+    height: 500px;
+    background: lightcoral;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    border: 3px solid rgba(rgba(231, 56, 56, 0.982), green, blue, alpha);
+    box-shadow: 0 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    letter-spacing: 3px;
+    color:white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-size: 1.5em;
+}
+.form-group{
+    position:relative;
+
+    width: 330px;
+    margin: 30px 0;
+    border-bottom: 3px solid white;
+}
+input[type]{
+    color:pink;
+}
+.form-group input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    color: white;
+    padding: 0 30px 0 10px;
+    border-color: black;
+}
+label:focus~input,
+label:focus~input{
+    transition: 0.5s;
+    color: chocolate;
+} 
+.form-group label{
+    position:absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+input:focus~label,
+input:valid~label{
+    top: -5px;
+    transition: 0.5s;
+    color: hsl(188, 100%, 50%);
+} 
+p{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+
+}
+div>a{
+    padding: 0 30px ;
+}
+p>a{
+    
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+p>a:hover{
+    color: blue;
+    letter-spacing: 0.025em;
+    text-decoration: underline;
+    font-style: bold;
+    
+}
+#btn{
+    letter-spacing: 2px;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin:10px 0 ;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 70px; ;
+}
+
+#btn:hover{
+    background-color: rgb(32, 165, 32);
+    color: white;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px rgb(32, 165, 32);
+}
+#btn:active{
+background-color: orange;
+}
