@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+
+<body>
+    <div>
+        <table border="black">
+            <caption>Student Information</caption>
+            <tr>
+                <td rowspan="6">Info</td>
+                <td rowspan="2">Name</td>
+                <td colspan="2"> Address</td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>House</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>pune</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <form action="/action.php">
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            Sex :
+            <input type="radio" id="male" name="sex" value="M">
+            <label for="sex">Male</label>
+            <input type="radio" id="female" name="sex" value="F">
+            <label for="female">Female</label>
+            <br>
+            <br>
+            <label for="country">country :</label>
+            <select id="country" name="country">
+                <option>Select your country</option>
+                <option value="AFG">Afghanistan</option>
+                <option value="ASM">America</option>
+                <option value="AUS">Australia</option>
+                <option value="CAN">Canada</option>
+                <option value="BRA">Brazil</option>
+                <option value="IND">India</option>
+                <option value="GUF">France</option>
+                <option value="RUS">Russia</option>
+                <option value="WI">West Indies</option>
+                <option value="PAK">Pakistan</option>
+                <option value="ENG">England</option>
+            </select>
+        </div>
+        <br>
+        <label for="message">Message :</label>
+        <br>
+        <textarea id="message" name="msg" rows="3" cols="30" placeholder="Write your message....."></textarea>
+        <br>
+        <br>
+        <input type="checkbox" id="sub" name="sub">
+        <label for="sub">Subscribe?</label>
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form action="/action.php">
+        <h1>Feedback Form</h1>
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="Name" placeholder="Write your name">
+            <br>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="Email" placeholder="Write your email">
+            <br>
+            <br>
+            <label for="msg">Message :</label>
+            <br>
+            <textarea id="msg" placeholder="write message" name="feedback"></textarea>
+            <br>
+            <br>
+            Rate us our of 5 :
+            <br>
+            <input type="radio" id="1" name="rate" value="1">
+            <label for="1">1</label>
+            <br>
+            <input type="radio" id="2" name="rate" value="2">
+            <label for="2">2</label>
+            <br>
+            <input type="radio" id="3" name="rate" value="3">
+            <label for="3">3</label>
+            <br>
+            <input type="radio" id="4" name="rate" value="4">
+            <label for="4">4</label>
+            <br>
+            <input type="radio" id="5" name="rate" value="5">
+            <label for="5">5</label>
+        </div>
+        <br>
+        <button>Send your message</button>
+    </form>
+</body>
+</body>
+</body>
+
+</html>
