@@ -1,0 +1,30 @@
+* {
+    background-color: wheat;
+    font-family: georgia;
+}
+h1 {
+    text-align: center;
+}
+.author {
+    text-align: end;
+    color: black;
+}
+.poem {
+    text-align: center;
+    color: red;
+    line-height: 30px;
+}
+textarea {
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 165, 0);
+}
+button {
+    color: blueviolet;
+    background-color: white;
+}
+.poem ozymandias {
+    text-decoration: underline;
+}
