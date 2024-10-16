@@ -1,0 +1,41 @@
+* {font-family:  monospace;
+    background-color:white;
+}
+h3 {
+    color: black;
+}
+
+h1 {
+    color: #b92b27;
+}
+/* id selector */
+#login {
+    color: white;
+    background-color: #b92b27;
+}
+#signup {
+    color: white;
+    background-color: #b92b27;
+}
+/* class selector */
+.upvote {
+    color: white;
+    background-color: green;
+}
+.answer {
+    color: white;
+    background-color: rgb(83, 200, 246);
+}
+/*descendant selector */
+p a {
+    color: purple;
+    background-color: yellow;
+}
+nav ul li a {
+    text-decoration: none;
+    
+    
+}
+p+h3 {
+    text-decoration: underline;
+}
