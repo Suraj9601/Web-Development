@@ -3,6 +3,7 @@
 }
 h3 {
     color: black;
+    text-decoration: underline;
 }
 
 h1 {
@@ -13,9 +14,22 @@ h1 {
     color: white;
     background-color: #b92b27;
 }
+#login:hover{
+    font-weight: bold;
+}
+#login:active{
+    background-color: #ff0800;
+}
 #signup {
     color: white;
     background-color: #b92b27;
+}
+#signup:hover{
+    font-weight: bold;
+}
+#signup:active{
+    background-color: #ff0800;
+
 }
 /* class selector */
 .upvote {
@@ -31,11 +45,37 @@ p a {
     color: purple;
     background-color: yellow;
 }
+p a:hover{
+    letter-spacing: 0.2px;
+}
+p a:active{
+    background-color:orange;
+}
 nav ul li a {
     text-decoration: none;
     
     
 }
-p+h3 {
-    text-decoration: underline;
+
+input[type="text"] 
+{
+    color: red;
+}
+input[type="password"] {
+    color: green;
+    font-family:;  
+
+div > input{
+    background-color :yellow;
+}
+.upvote:hover,.answer:hover {
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+.upvote:active,.answer:active{
+    background-color: hotpink;
+    color: black;
 }
