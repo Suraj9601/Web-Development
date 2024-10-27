@@ -1,3 +1,8 @@
 #myid p {
     color: green;
 }
+#myid::first-letter{
+    font-size: 2pc;
+    color: tomato;
+    font-weight: bold;
+}
