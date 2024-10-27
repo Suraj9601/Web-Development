@@ -1,0 +1,31 @@
+#maintopic {
+    color: blue;
+}
+* {
+    text-align: center;
+}
+h1,h3,h5 {
+    font-family: georgia;
+}
+.paragraph {
+    background-color: cornflowerblue;
+    color: white;
+}
+button {
+    background-color: purple;
+    color: azure;
+}
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+.paragraph:nth-child(2n-1) {
+    color: yellow;
+}
+#maintopic::first-letter{
+    color: red;
+}
+#yes:checked + label {
+    color: darkgreen;
+    font-weight: bold;
+}
