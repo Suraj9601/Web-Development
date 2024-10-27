@@ -62,9 +62,8 @@ input[type="text"]
     color: red;
 }
 input[type="password"] {
-    color: green;
-    font-family:;  
-
+    color: green;  
+}
 div > input{
     background-color :yellow;
 }
@@ -75,7 +74,15 @@ div > input{
 h3:hover{
     text-decoration: none;
 }
-.upvote:active,.answer:active{
+.upvote:active,.answer:active
+{
     background-color: hotpink;
     color: black;
+}
+
+.post:nth-of-type() {
+    background-color: blanchedalmond;
+}
+h1::first-letter{
+    font-size: 2opx;
 }
