@@ -1,0 +1,15 @@
+.container {
+    height: 400px;
+    width: 400px;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: ;
+}
+.container div {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border: 2px solid black;
+    display: flex;
+}
