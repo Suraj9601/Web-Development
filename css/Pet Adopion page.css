@@ -1,0 +1,43 @@
+i {
+    color: brown;
+    font-style: italic;
+}
+span {
+    color: brown;
+}
+#pets {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.card {
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+
+} img {
+    height: 200px;
+    width: 100%;
+    border-radius: 23px 23px 0px 0px;
+    
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+p {
+    text-align: justify;
+    margin: 5px;
+}
+h4 {
+    text-align: right;
+    color: #3c787e;
+}
