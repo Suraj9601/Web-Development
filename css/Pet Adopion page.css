@@ -10,8 +10,6 @@ span {
     margin: 0;
     display: flex;
     justify-content: space-evenly;
-    
-    
 }
 .card {
     background-color: bisque;
@@ -40,4 +38,12 @@ p {
 h4 {
     text-align: right;
     color: #3c787e;
+}
+p {
+    font-family: cursive;
+}
+@media (max-width:375px){
+    #pets{
+        flex-wrap: wrap;
+    }
 }
