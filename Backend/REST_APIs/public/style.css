@@ -1,0 +1,28 @@
+.user {
+    color: maroon;
+    font-style: italic;
+    position: relative;
+    
+    top: 10px;
+}
+
+.post {
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid lightcoral;
+
+}
+
+a {
+    background-color: tan;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 0.75rem;
+}
+
