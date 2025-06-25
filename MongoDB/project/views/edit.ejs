@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Chat</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #dfe9f3, #ffffff);
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .edit-form-container {
+            background: #ffffff;
+            padding: 2rem 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+        textarea {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        font-size: 1rem;
+        height: 100px; /* ⬅️ Increased height */
+        resize: vertical; /* Optional: allow vertical resizing only */
+        }
+
+
+        button {
+            width: 100%;
+            padding: 0.75rem;
+            background-color: #3498db;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="edit-form-container">
+        <h2>Edit Chat</h2>
+        <form method="POST" action="/chats/<%= chat._id %>?_method=PUT">
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" value="<%= chat.from %>" required>
+
+            <label for="to">To:</label>
+            <input type="text"  name="to" value="<%= chat.to %>" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required><%= chat.message %></textarea>
+
+            <button type="submit">Update Chat</button>
+        </form>
+    </div>
+</body>
+</html>
